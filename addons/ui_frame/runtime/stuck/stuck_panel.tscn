@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bjj5342xwxo2i"]
+
+[ext_resource type="Script" uid="uid://dvmnkyp8nqpbo" path="res://addons/ui_frame/runtime/stuck/StuckPanel.cs" id="1_h0tip"]
+[ext_resource type="Texture2D" path="res://addons/ui_frame/icons/loading.png" id="2_h0tip"]
+
+[node name="StuckPanel" type="Control" unique_id=1874064036 node_paths=PackedStringArray("_icon")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_h0tip")
+_icon = NodePath("Icon")
+
+[node name="Icon" type="TextureRect" parent="." unique_id=2000957426]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -40.0
+offset_top = -40.0
+offset_right = 40.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(40, 40)
+texture = ExtResource("2_h0tip")
+expand_mode = 1

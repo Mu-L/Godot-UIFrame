@@ -2,5 +2,9 @@
 .godot/
 /android/
 
+.agents/
 .idea/
 .editorconfig
+.tmp_appdata/
+.tmp_localappdata/
+dist/
